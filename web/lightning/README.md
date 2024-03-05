@@ -5,7 +5,7 @@ The web/lnd directory contains two python scripts that connect to an instance
 of lnd running on the current machine and handle invoices.  They mostly follow 
 the lnd grpc tutorial for python.
 
-To use, follow the directions from the [lnd documentation][1] and setup
+To use, follow the directions from the [lnd documentatio8n][1] and setup
 python in a virtualenv.  I copied the `rpc_pb*` files into the site-packages
 directory of the virtual environment.  Use the python from this directory 
 in your httpd cgi configuration.  I use lighttpd with:
